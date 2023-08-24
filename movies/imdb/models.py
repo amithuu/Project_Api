@@ -1,6 +1,8 @@
 from django.db import models
 
 # Create your models here.
+
+
 class Movie_Post(models.Model):
     movie_name = models.CharField(max_length=20)
     movie_desc = models.TextField()
